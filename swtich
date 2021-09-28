@@ -1,0 +1,32 @@
+public class conditionals {
+	public static void main(String[] args) { System.out.println("----------calulator menu---------");
+	    System.out.println("1.ADDITION");
+	    System.out.println("2.SUBTRACTION");
+	    System.out.println("3.MULTIPLICATION");
+	    System.out.println("4.DIVISION");
+	    int choice=3;
+	    int a = 40;
+	    int b = 40;
+	    switch(choice){
+	    case 1:
+	    	int sum=a+b;
+	    	System.out.println(sum);
+	    	break;
+	    case 2:
+	    	int sub=a-b;
+	    	System.out.println(sub);
+	    	break;
+	    case 3:
+	    	int mul=a*b;
+	    	System.out.println(mul);
+	    	break;
+	    case 4:
+	    	int div=a/b;
+	    	System.out.println(div);
+	    	break;
+	    	default:
+	    		System.out.println("invalid choice,plese try again");
+	    		break;
+	    }
+	}
+	    }
